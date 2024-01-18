@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%; height: 100%">
+  <head>
+    <title>BlokSports chatbot Test</title>
+  </head>
+  <body style="width: 100%; height: 130vh; background-color: black">
+    <div style="width: 100%; height: 500px">
+      <h1 style="text-align: center">BlokSports chatbot Test</h1>
+      <p style="text-align: center">
+        This is a test of the chatbot If you can see this, it works.
+      </p>
+    </div>
+    <div style="margin: 0 auto; max-width: 350px">
+      <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '65a4d9780caa144705a71e03' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+
+    </div>
+  </body>
+</html>
